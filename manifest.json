@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "This extension is a starting point to create a real extension",
+  "icons": {
+    "48": "/img//ghost-icon.png",
+    "96": "/img/ghost-icon.png"
+  },
+  "browser_action": {
+    "default_icon": "/img/ghost-icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": ["storage"]
+}
